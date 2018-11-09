@@ -1,0 +1,648 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: Riyad Ahsan
+Email: riyad298@gmail.com
+URL: http://riyadahsan.com/
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+
+
+/*Media Query 
+===============================
+ for mobile responsiveness 
+@media (max-width: 767px) { }
+ for tab responsiveness 
+@media (max-width: 1200px) and (min-width: 767px) { }
+ for desktop responsiveness 
+@media (min-width: 1200px){ }*/
+
+
+/*header wrapper  part starts */
+
+/*header wrapper navbar part starts */
+
+.navbar {
+    border-radius: 1px;
+    background-color: black;
+    opacity:.5;
+
+}
+
+.navbar a {
+    font-family: 'Alegreya', serif;
+    color: white;
+}
+
+.navbar-header>a {
+    font-family: 'League Script', cursive;
+    font-size: 28px;
+}
+
+
+
+/*header wrapper navbar part ends*/
+
+
+
+.header_wrapper {
+    background-image: url(../images/background1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.header_wrapper h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 82px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+
+}
+.header_wrapper p {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.header_wrapper button {
+    margin-bottom: 100px;
+    border-radius: 1px;
+    border: 0.5px dotted #ffffff;
+    background-color: black;
+    opacity: .5;
+    color: #ffffff;
+    font-family: 'Alegreya', serif;
+    font-size: 11px;
+    font-weight: 300;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: pre;
+}
+
+
+.header_wrapper button:hover{
+    color: white;
+}
+/*header wrapperpart ends*/
+
+
+
+
+
+
+
+/*cook_wrapper part starts*/
+
+.cook_wrapper {
+    background-image: url(../images/background2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alegreya', serif;
+
+}
+
+
+.gol_image {
+    width: 100%;
+    margin-top: -43px;
+}
+
+
+.cook_wrapper h1 
+{
+    color: #56534c;
+    margin-top: 34px;
+    font-weight: bold;
+
+}
+
+.cook_wrapper_p1
+{
+    color: #a47d5e;
+    margin-bottom:25px;
+    font-weight: bold;
+
+}
+
+
+.cook_wrapper_p2
+{
+    color: #56534c;
+    margin-bottom:30px;
+    width: 80%;
+}
+
+.cook_wrapper h3 
+{
+    color: #56534c;
+    font-weight: bold;
+
+}
+
+.cook_wrapper h5 {
+    font-weight: bold;
+}
+
+.cook_wrapper img {
+    /*    margin-bottom: 100px;*/
+}
+
+.cook_left_image {
+    margin-bottom: 25px;
+}
+
+.inline2 {
+    display: inline;
+}
+.inline2 {
+    /*    margin-top: 30px;*/
+}
+.inline1 , .inline3 {
+    border-top: 1px solid #56534c;
+    display: inline-block;
+    border-bottom: 1px solid #56534c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+.cook_wrapper h4 {
+    font-family: 'League Script', cursive;
+    /*    color:#a47d5e;*/
+    color: darkgoldenrod;    
+    margin-bottom: 30px;
+    white-space: pre ;
+    font-size: 22px;
+    margin-top:25px;
+    font-weight: bold;
+    /*    white-space: pre-line;*/
+}
+
+
+
+/*cook wrapper part ends*/
+
+
+
+
+/*dim_wrapper part starts*/
+
+
+.dim_wrapper {
+    background-image: url(../images/background3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alegreya', serif;
+}
+
+.dim_wrapper_img_1 {
+
+    margin-top:50px;
+    margin-bottom:50px;
+
+
+}
+
+.dim_wrapper_img_2 {
+
+    margin-top:53px;
+    margin-bottom:47px;
+
+}
+
+
+.min40 {
+
+    position: absolute;
+    right: 120px;
+    top: 7px;
+    width: 235px;
+
+
+}
+
+
+.dim_wrapper_absolute2 {
+
+    position: absolute;
+    left: 43px;
+    top: 144px;
+
+
+}
+
+.dim_wrapper_absolute2 h3 {
+    font-weight: 900;
+    color: #56534c;
+    font-size: 40px;
+
+}
+
+
+.dim_wrapper_absolute2 h6 {
+    font-size: 15px;
+    color: #a47d5e;
+
+
+
+}
+
+.dim_wrapper_absolute2 p {
+
+
+    color: #56534c;
+    margin-top: 20px;
+    width: 60%;
+
+}
+
+
+.dim_wrapper_absolute_gol_image {
+    position: absolute;
+    bottom: 18px;
+
+
+}
+
+.dim_wrapper_absolute_gol_image img {
+    height: 150px;
+    width: 150px;
+}
+
+
+.dim_wrapper_back1 {
+
+}
+
+
+/*dim_wrapper part ends*/
+
+
+
+/*lobon_wrapper part starts*/
+
+.lobon_wrapper {
+    background-image: url(../images/background4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alegreya', serif;
+
+}
+
+.lobon_wrapper img {
+    margin-top:60px;
+    margin-bottom:  60px;
+}
+
+
+.lobon_h2{
+    color: #ffffff;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.lobon_wrapper h5{
+    color:#a47d5e;
+}
+
+.lobon_wrapper h2 {
+    color: #ffffff;
+
+}
+
+.lobon_wrapper h6 {
+    color: #9a989a;
+
+
+
+}
+
+
+.lobon_wrapper h3 {
+    color:#dfc691;
+}
+/*lobon_wrapper part ends*/
+
+
+/*sandwich_wrapper part starts*/
+
+.sandwitch_wrapper {
+    background-image: url(../images/background5.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alegreya', serif;
+
+}
+.sandwitch_wrapper h2 {
+
+    margin-top:-16px;
+    color:#56534c;
+    font-weight: bold;
+    font-size: 35px;
+
+
+}
+
+.sandwitch_wrapper h5 {
+    color:#aa866a;
+    font-weight: 300;
+
+
+}
+
+
+.sandwitch_wrapper h3 {
+    color:#aa866a;
+    font-weight: bold;
+}
+
+.sandwitch_wrapper p {
+    color:#56534c;
+
+
+}
+
+
+
+.sandwitch_wrapper_absolute_vejal_1 img {
+    display: block;
+    margin-bottom: -19px;
+    margin-top:0px;
+    opacity: .95;
+}
+
+
+.sandwitch_wrapper_absolute_vejal_1 {
+    position: absolute;
+    top: 27px;
+    right: 60px;
+}
+
+
+
+.dori_image {
+
+    margin-top:50px;
+
+
+}
+
+
+.corner_left_dori {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+
+
+
+}
+
+
+
+.sandwitch_wrapper_last_p {
+    margin-bottom: 30px;
+}
+/*sandwich_wrapper part ends*/
+
+
+
+
+
+
+
+
+/*Media Query part starts */
+
+@media only screen and (max-width: 767px) {
+
+    /*    header wrapper media query starts*/
+    /*.media_margin1{
+        margin-left:10px;
+    }
+    
+    .media_margin2 {
+        
+        margin-left: 30px;
+        
+    }*/
+
+
+
+    .header_wrapper h1 {
+        font-family: 'Playfair Display', serif;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+
+
+    /*    header wrapper media query ends*/
+
+    /*    cook wrapper media query starts*/
+
+
+    .gol_image {
+        width: 100%;
+        margin-top: -22px;
+    }
+
+
+
+    /*    cook wrapper media query ends*/
+
+
+
+
+
+
+
+
+    /*    dim wrapper media query starts*/
+
+    .dim_wrapper_img_2 {
+        margin-top: -45px;
+        margin-bottom: 47px;
+    }
+
+
+    .dim_wrapper_absolute2 h3 {
+        font-weight: 900;
+        color: #56534c;
+        font-size: 30px;
+    }
+
+    .min40 {
+        position: absolute;
+        right: -13px;
+        top: -12px;
+        width: 130px;
+    }
+
+    .dim_wrapper_absolute2 {
+        position: absolute;
+        left: 43px;
+        top: 12px;
+
+
+    }
+
+
+    .dim_wrapper_absolute_gol_image img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .dim_wrapper_absolute_gol_image {
+        position: absolute;
+        bottom: -15px;
+    }
+
+    .dim_wrapper_absolute2 p {
+
+
+        color: #56534c;
+        margin-top: 20px;
+        width: 70%;
+
+    }
+    /*    dim wrapper media query ends*/
+
+
+
+
+
+
+
+    .sandwitch_wrapper_absolute_vejal_1 {
+        position: relative;
+
+        /* height: 200px; */
+    }
+
+
+    .sandwitch_wrapper_last_p {
+        margin-bottom: 10px;
+    }
+
+    .dori_image {
+        margin-top: 0px;
+        margin-bottom: 25px;
+
+
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 768px)  {  
+
+
+
+    .gol_image {
+
+        margin-top: -36px;
+    }
+
+    .min40 {
+        position: absolute;
+        right: -14px;
+        top: 22px;
+        width: 235px;
+    }
+
+
+
+    .dim_wrapper_absolute2 p {
+        color: #56534c;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+
+}
+
+
+
+@media screen and  (min-width: 1650px) and (max-width: 2000px)  {
+
+
+    .gol_image {
+
+        margin-top: -50px;
+    }
+
+    .dim_wrapper_absolute2 p {
+
+        width: 50%;
+    }
+
+
+    .min40 {
+
+
+        right: 302px;
+        top: 25px;
+        /*        width: 235px;*/
+
+    }
+}
+
+
+
+
+@media screen and  (min-width: 1015px) and (max-width: 1040px){
+    .dim_wrapper_img_1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 527px;
+    }
+
+
+
+    .dori_image {
+        margin-top: 32px;
+        height: 607px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*Media Query part ends */
+
